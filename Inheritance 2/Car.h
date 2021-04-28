@@ -21,6 +21,14 @@ public:
 	Car(string carMake, int carModel, int carMileage, double carPrice, int carDoors) : Vehicle(carMake, carModel, carMileage, carPrice)
 	{
 		doors = carDoors;
+
+		displayCar();
+
+	}
+
+	void displayCar()
+	{
+			cout << "Doors: " << doors << endl << endl;
 	}
 
 	//Accessor for doors

@@ -21,8 +21,14 @@ public:
 	Truck(string truckMake, int truckModel, int truckMileage, double truckPrice, string truckTowingCap) : Vehicle(truckMake, truckModel, truckMileage, truckPrice)
 	{
 		towingCap = truckTowingCap;
+
+		displayTruck();
 	}
 
+	void displayTruck()
+	{
+		cout << "Towing capacity: " << towingCap << endl << endl;
+	}
 	//Accessor for towing capacity
 	string getTowingCap()
 	{

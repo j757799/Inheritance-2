@@ -38,11 +38,11 @@ public:
 	void displayVehicle()
 	{
 		cout << fixed << showpoint << setprecision(2) << endl;
-		cout << "\n\nHere is the vehicle description: \n";
+		cout << "\n\nHere is the description: \n";
 		cout << "Make: " << make << endl;
 		cout << "Model year: " << model << endl;
 		cout << "Mileage: " << mileage << endl;
-		cout << "Price: $" << price << endl << endl;
+		cout << "Price: $" << price << endl;
 	}
 
 	//Accessors

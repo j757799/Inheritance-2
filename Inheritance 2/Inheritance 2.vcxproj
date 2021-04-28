@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
-    <ClInclude Include="Truck.h" />
+    <ClInclude Include="Truck.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
